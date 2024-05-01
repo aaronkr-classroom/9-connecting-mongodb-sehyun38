@@ -8,7 +8,7 @@ const port = 3000,
   errorController = require("./controllers/errorController"),
   app = express(),
   MongoDB =  require("mongodb").MongoClient,
-  dbURL ="mongodb+srv://user:3FoHbQgwCQb2quV2@ut-node.z2zjfig.mongodb.net/?retryWrites=true&w=majority&appName=ut-node", //Atlas에서
+  dbURL ="mongodb+srv://user:S9hUVpwzZhwpiAVI@ut-node.z2zjfig.mongodb.net/?retryWrites=true&w=majority&appName=ut-node", //Atlas에서
   dbName ="ut-node";
   // @TODO: 몽고DB 모듈의 요청
 
