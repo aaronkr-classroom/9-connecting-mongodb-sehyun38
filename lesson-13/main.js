@@ -1,7 +1,7 @@
 // main.js
 "use strict";
 
-const port = 300,
+const port = 3000,
   express = require("express"),
   layouts = require("express-ejs-layouts"),
   homeController = require("./controllers/homeController"),
