@@ -14,8 +14,8 @@ const port = 3000,
  * Mongoose를 사용한 MongoDB 연결
  */
 const mongoose = require("mongoose"),
-  dbURL ="mongodb+srv://user:S9hUVpwzZhwpiAVI@ut-node.z2zjfig.mongodb.net/?retryWrites=true&w=majority&appName=ut-node", //Atlas에서
-  dbName ="ut-node";
+  dbURL ="mongodb+srv://user:XAKChOtj4OIqYKyQ@ut-node.z2zjfig.mongodb.net/?retryWrites=true&w=majority&appName=ut-node", //Atlas에서
+  dbName ="user";
 
 mongoose.connect(
   dbURL + "/" +dbName, //URL +dbName
